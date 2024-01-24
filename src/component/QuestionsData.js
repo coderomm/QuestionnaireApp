@@ -53,7 +53,7 @@ const questionsData = [
       max: 12,
       step: 1,
     // follow-up question for Q8 if answer is <5h
-      followUp: {
+    followUp: {
         question: "Do you have problems falling or staying asleep?",
         options: [
           "Obstructive sleep",
