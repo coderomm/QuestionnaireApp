@@ -68,6 +68,7 @@ const Questionnaire = () => {
     setIsAnswered(false);
   };
 
+  // Handle option select
   const handleOptionSelect = (selectedOption) => {
     setUserResponses((prevResponses) => {
       const updatedResponses = [...prevResponses];
@@ -97,6 +98,7 @@ const Questionnaire = () => {
     }
   };
 
+  // Handle submit
   const handleSubmit = () => {
     setCurrentQuestion((prevQuestion) => prevQuestion + 1);
     console.log("User response on submit : ", userResponses);
