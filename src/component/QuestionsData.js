@@ -1,10 +1,10 @@
 const questionsData = [
   {
     id: 1,
-    question: "I am looking for a product recommendation for:",
-    options: ["Myself", "My Parents", "Partner", "My Child"],
+    question: "What’s Your age?",
+    options: ["18-21", "22-30", "31-40", "41-55", "55-70", "70+"],
     type: "single-choice",
-  },
+  }, 
   {
     id: 2,
     question: "What is your Gender?",
@@ -24,25 +24,27 @@ const questionsData = [
     ],
     type: "single-choice",
   },
+
   {
     id: 4,
-    question: "The age of the person for whom the supplements are, is:",
-    options: ["18-21", "22-30", "31-40", "41-55", "55-70", "70+"],
-    type: "single-choice",
+    question: "What is your Weight: ___________",
+    type: "text-input",
   },
   {
     id: 5,
-    question: "My Weight is _____ ",
+    question: "What is your Height: ___________",
     type: "text-input",
   },
   {
     id: 6,
-    question: "My Height is _____ ",
-    type: "text-input",
+    question: "Whom are you looking for supplements for?",
+    options: ["Myself", "My Parents", "Partner", "My Child"],
+    type: "single-choice",
   },
+
   {
     id: 7,
-    question: "My City is _____ ",
+    question: "What is your City: ___________",
     type: "text-input",
   },
   {

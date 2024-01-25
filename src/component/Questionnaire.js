@@ -67,7 +67,7 @@ const Questionnaire = () => {
     setCurrentQuestion(1);
     setIsAnswered(false);
   };
-
+  
   // Handle option select
   const handleOptionSelect = (selectedOption) => {
     setUserResponses((prevResponses) => {
